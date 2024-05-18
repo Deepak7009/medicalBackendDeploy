@@ -2,7 +2,7 @@ const user = require("../models/userSchema");
 
 const gets = async (req, res) => {
   console.log("data", req.body);
-  res.send("Hello Deepak");
+  res.send("Hello Sahil");
 };
 
 const addUser = async (req, res) => {
